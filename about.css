@@ -1,0 +1,127 @@
+.heading {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url("../images/landing_page_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 40px;
+    margin-right: auto;
+}
+/* Navbar styling */
+header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header ul li {
+    color: white;
+    padding: 10px 20px;
+}
+
+header ul li:hover {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+}
+
+.box {
+    width: 250px;
+    padding: 20px;
+    background-color: #EEA9BA;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.box2{
+    width: 500px;
+    padding: 20px;
+    background-color: #ecececea;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+/* Circular image styling */
+.box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+}
